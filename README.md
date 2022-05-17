@@ -1,0 +1,2 @@
+# nixosconfigs
+NIXOS root configurations
