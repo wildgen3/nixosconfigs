@@ -3,11 +3,13 @@
 
   inputs = { 
 	nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+	deploy-rs.url = "github:serokell/deploy-rs";
+
 	
 	};
 
 
-  outputs = { self, nixpkgs }: {
+  outputs = { self, nixpkgs, deploy-rs, ... }: {
 
 	nixosConfigurations = {
 		lab1 = nixpkgs.lib.nixosSystem {
