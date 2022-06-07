@@ -8,7 +8,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      ./ssh-phone-home.nix
+      
     ];
 
   # Use the GRUB 2 boot loader.
