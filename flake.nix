@@ -26,7 +26,7 @@
 				./users/users.nix
 			];
 	};
-lab3 = nixpkgs.lib.nixosSystem {
+		lab3 = nixpkgs.lib.nixosSystem {
 			system = "x86_64-linux";
 			modules = [
 				./systems/lab3/configuration.nix
